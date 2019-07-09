@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background: #1A1A1D;
+  height: 100vh;
+}
+
+nav {
+  background:#1A1A1D;
+  box-shadow: 0 4px 2px -2px rgb(14, 14, 15);
+
+}
+.navlinks {
+  padding-left:30px;
+}
+
+.navbar-text {
+  color:white;
+}
+
+.padded-main-content {
+  padding-top: 10vh;
+}
+
+.main-text {
+  color:white;
+  margin-left: 5vw;
+}
+
+.header-img {
+  border-radius: 50% 50% 50% 50%;
+  width:60%;
+}
+
+.home-banner {
+  color:rgb(55, 101, 255);
+  font-size:64px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.home-banner-subtext {
+  font-weight: 600;
+}
+
+.skills-div {
+  padding-top:10vh;
+}
+
+.skills-title {
+  font-size: 45px;
+}

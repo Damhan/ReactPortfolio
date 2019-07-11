@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background: #1A1A1D;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 nav {
@@ -14,11 +15,11 @@ nav {
 }
 
 .navbar-text {
-  color:white;
+  color:white !important;
 }
 
 .navbar-brand {
-  color:#B39E29;
+  color:#B39E29 !important;
 }
 
 .padded-main-content {
@@ -65,4 +66,8 @@ nav {
 
 .social-icon {
   margin:3vh;
+}
+
+.projects-title-text {
+  color:white;
 }

@@ -17,6 +17,10 @@ nav {
   color:white;
 }
 
+.navbar-brand {
+  color:#B39E29;
+}
+
 .padded-main-content {
   padding-top: 10vh;
 }
@@ -32,7 +36,7 @@ nav {
 }
 
 .home-banner {
-  color:rgb(55, 101, 255);
+  color:#B39E29;
   font-size:64px;
   margin-bottom: 0;
   margin-left: 0;
@@ -48,4 +52,17 @@ nav {
 
 .skills-title {
   font-size: 45px;
+}
+
+.skills-logo {
+  padding-right:10px;
+}
+
+.skills-text {
+  display:inline-block;
+  padding-left:10px;
+}
+
+.social-icon {
+  margin:3vh;
 }

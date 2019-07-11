@@ -12,7 +12,7 @@ function Nav() {
   return (
   <nav class="navbar navbar-expand-md">
       <Link to="/">
-      <b class="navbar-text">Damhan</b>
+      <b class="navbar-brand">Damhan</b>
       </Link>
       <div class="navbar-collapse collapse justify-content-stretch">
           <ul class="navbar-nav ml-auto">

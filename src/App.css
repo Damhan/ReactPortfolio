@@ -71,3 +71,8 @@ nav {
 .projects-title-text {
   color:white;
 }
+
+.card-img {
+  height:15vw;
+  object-fit: contain;
+}

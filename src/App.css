@@ -48,6 +48,7 @@ nav {
 
 .home-banner-subtext {
   font-weight: 600;
+  font-size: 24px;
 }
 
 .skills-div {
@@ -72,10 +73,21 @@ nav {
 }
 
 .projects-title-text {
-  color:white;
+  color:#B39E29;
+  font-size: 40px;
+  padding-left: 10vw;
+}
+
+#project-title {
+  padding-left:10vw;
 }
 
 .card-img {
-  height:15vw;
+  height:10vw;
   object-fit: contain;
+}
+
+.project-card {
+  background-color: #B39E29 !important;
+  color:white !important;
 }

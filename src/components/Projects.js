@@ -8,13 +8,13 @@ function Projects() {
     <div class="container-flud padded-main-content">
       <div class="row">
         
-        <div class="col projects-title-text">
-          <p>You can view all my work on github.</p>
+        <div class="col projects-title-text text-left">
+          <p id="project-title">You can view all my work on github.</p>
         </div>
         
         <div class="col" align="center">
-          <Card style={{width:'24rem'}}>
-            <Card.Img varient="top" src={require('../DublinBusAssist.png')}/>
+          <Card style={{width:'30vw'}} className="project-card">
+            <Card.Img varient="top" src={require('../assets/DublinBusAssist.png')}/>
             <Card.Body>
               <Card.Text>
                 Dublin Bus Asssist. <br/>
@@ -26,25 +26,25 @@ function Projects() {
 
       </div>
 
-      <div class="row">
+      <div class="row" style={{'padding-top':"10vh"}} >
         <div class="col" align="center">
-        <Card style={{width:'24rem'}} >
-            <Card.Img varient="top" src={require('../DublinBusAssist.png')}/>
+        <Card  style={{width:'30vw'}} className="project-card">
+            <Card.Img varient="top" src={require('../assets/DublinBusAssist.png')}/>
             <Card.Body>
               <Card.Text>
-                Dublin Bus Asssist. <br/>
+                [placeholder]React notes here. <br/>
                 Details here.
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
 
-        <div class="col" align="center">
-        <Card style={{width:'24rem'}}>
-          <Card.Img varient="top" src={require('../DublinBusAssist.png')}/>
+        <div class="col" align="center" >
+        <Card style={{width:'30vw'}} className="project-card">
+          <Card.Img varient="top" src={require('../assets/portfolio.PNG')}/>
             <Card.Body>
               <Card.Text>
-                Dublin Bus Asssist. <br/>
+                React Portfolio website <br/>
                 Details here.
               </Card.Text>
             </Card.Body>

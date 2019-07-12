@@ -27,12 +27,28 @@ function Projects() {
       </div>
 
       <div class="row">
-        <div class="col">
-          <p>Some proj</p>
+        <div class="col" align="center">
+        <Card style={{width:'24rem'}} >
+            <Card.Img varient="top" src={require('../DublinBusAssist.png')}/>
+            <Card.Body>
+              <Card.Text>
+                Dublin Bus Asssist. <br/>
+                Details here.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
 
-        <div class="col">
-          <p>Another proj ere</p>
+        <div class="col" align="center">
+        <Card style={{width:'24rem'}}>
+          <Card.Img varient="top" src={require('../DublinBusAssist.png')}/>
+            <Card.Body>
+              <Card.Text>
+                Dublin Bus Asssist. <br/>
+                Details here.
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </div>
       </div>
     </div>

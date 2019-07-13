@@ -103,3 +103,61 @@ nav {
   color:rgb(209, 185, 49) !important;
   top: -2px;
 }
+
+.contact-form-sect {
+  display: block;
+  border: 5px solid #B39E29;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 0 0 10px 10px;
+  max-width: 650px;
+  min-width: 300px;
+  width:30vw;
+  background-color: #B39E29;
+}
+
+.contact-form {
+  padding: 10px 10px 0 0;
+}
+
+.cf-textarea {
+  margin: 5px 0;
+	width: 100%;
+	height: 100px;
+}
+
+.form-labels {
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+.wrapper {
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-sub {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(224, 198, 48);
+  border: 0;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+  font-size: 18px;
+}
+
+.contact-sub:hover {
+  border: 2px solid rgba(50, 50, 56, 0.404);
+}
+
+.cf-title {
+  display: inline-block;
+}
+
+.cf-title h2 {
+  padding: 0 10px 0 0px;
+	margin: 5px 0;
+}

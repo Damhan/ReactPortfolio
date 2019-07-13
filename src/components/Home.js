@@ -3,42 +3,35 @@ import './../App.css';
 import {FaCircleNotch} from 'react-icons/fa';
 import { SocialIcon } from 'react-social-icons';
 import Skill from './Skill';
-
+import TextLoop from 'react-text-loop';
+import Button from 'react-bootstrap/Button';
 
 function Home() {
+
+    
   return (
     <div class="container-fluid padded-main-content">
-        <div class="row row-no-gutter">
-            <div class="col main-text text-left">
-                <p class="home-banner">I'm Damhan Richardson.</p>
-                <p class="home-banner-subtext">I'm a software developer located in Dublin Ireland.</p>
-                <div class="skills-div">
-
-                    <p class="skills-title">Skills & Tools</p>
-
-                    <p>FrontEnd</p>
-                    <Skill class="skills-container" value={"Android"}/>
-                    <Skill class="skills-container" value={"ReactJs"}/>
-                    <Skill class="skills-container" value={"HTML/CSS3"}/>
-                    
-                    <p>Backend</p>
-                    <Skill class="skills-container" value={"Java"}/>
-                    <Skill class="skills-container" value={"Python"}/>
-                    <Skill class="skills-container" value={"Javascript"}/>
-                    
-                    <p>Tools</p>
-                    <Skill class="skills-container" value={"Github"}/>
-                    <Skill class="skills-container" value={"Jira"}/>
-                    
+        <div class="row">
+            <div class="col main-text text-left align-self-center">
+                <div class="lander-title">
+                    <p class="home-banner">I'm Damhan Richardson.</p>
+                    <p class="home-banner-subtext">I'm a <TextLoop interval={2000}>
+                                                            <span class="loop-items">[React]</span>                                                           
+                                                            <span class="loop-items">[Bootstrap]</span>
+                                                            <span class="loop-items">[Android]</span>
+                                                            <span class="loop-items">[Javascript]</span>
+                                                        </TextLoop> developer located in Dublin Ireland.</p>
+                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} >Projects</Button>
                 </div>
+                
             </div>
             <div class="col main-text">
                 <img src="me.jpg" class="header-img"/>
                 <div class="container">
                     <div class="row">
                         <div class="col social-icon">
-                            <SocialIcon class="social-icon" url="https://www.linkedin.com/in/damhan-richardson-2a597a115/" bgColor="#B34E40" />
-                            <SocialIcon class="social-icon" url="https://github.com/Damhan" bgColor="#B34E40" />
+                            <SocialIcon className="social-icons" url="https://www.linkedin.com/in/damhan-richardson-2a597a115/" bgColor="currentColor"/>
+                            <SocialIcon className="social-icons" url="https://github.com/Damhan" bgColor="currentColor" />
                             
                         </div>
                     </div>

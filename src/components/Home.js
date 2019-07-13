@@ -4,6 +4,7 @@ import {FaCircleNotch} from 'react-icons/fa';
 import { SocialIcon } from 'react-social-icons';
 import Skill from './Skill';
 
+
 function Home() {
   return (
     <div class="container-fluid padded-main-content">
@@ -36,8 +37,8 @@ function Home() {
                 <div class="container">
                     <div class="row">
                         <div class="col social-icon">
-                            <SocialIcon class="social-icon" url="https://www.linkedin.com/in/damhan-richardson-2a597a115/" bgColor="#B39E29" />
-                            <SocialIcon class="social-icon" url="https://github.com/Damhan" bgColor="#B39E29" />
+                            <SocialIcon class="social-icon" url="https://www.linkedin.com/in/damhan-richardson-2a597a115/" bgColor="#B34E40" />
+                            <SocialIcon class="social-icon" url="https://github.com/Damhan" bgColor="#B34E40" />
                             
                         </div>
                     </div>

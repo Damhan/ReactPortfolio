@@ -1,5 +1,4 @@
-html, body {overflow-x: hidden;
-            overflow-y: hidden}
+html, body {overflow-x: hidden;}
 
 .App {
   text-align: center;
@@ -73,13 +72,9 @@ nav {
 }
 
 .projects-title-text {
-  color:#B39E29;
+  color:#B34E40;
   font-size: 40px;
   padding-left: 10vw;
-}
-
-#project-title {
-  padding-left:10vw;
 }
 
 .card-img {
@@ -87,7 +82,24 @@ nav {
   object-fit: contain;
 }
 
+.card-col {
+ max-width: 450px !important;
+}
+
 .project-card {
-  background-color: #B39E29 !important;
-  color:white !important;
+  background-color: rgb(248, 248, 248) !important;
+  color:black !important;
+}
+
+.proj-git-link {
+  color:#B39E29 !important;
+  position: relative;
+  top:0;
+  transition: top ease 0.5s;
+}
+
+
+.proj-git-link:hover {
+  color:rgb(209, 185, 49) !important;
+  top: -2px;
 }

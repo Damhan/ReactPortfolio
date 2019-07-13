@@ -3,7 +3,7 @@ import './../App.css';
 
 function Experience() {
   return (
-    <div>
+    <div class="container">
       <h1>Experience Page</h1>
     </div>
   );

@@ -21,7 +21,7 @@ function Home() {
                                                             <span class="loop-items">[Android]</span>
                                                             <span class="loop-items">[Javascript]</span>
                                                         </TextLoop> developer located in Dublin Ireland.</p>
-                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} >Projects</Button>
+                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} href="/projects" >Projects</Button>
                 </div>
                 
             </div>

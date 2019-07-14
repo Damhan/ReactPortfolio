@@ -11,7 +11,7 @@ function Skill(props) {
   return (
 
     <div class="skills-container">
-        <FaCircleNotch class="skills-icon" style={{color:'#B39E29'}}/>
+        <FaCircleNotch class="skills-icon" style={{color:'#B34E40', marginBottom:'5px'}}/>
         <p class="skills-text">{props.value}</p>
 
     </div>

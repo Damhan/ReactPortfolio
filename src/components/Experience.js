@@ -5,15 +5,14 @@ import ExperienceCard from './ExperienceCard';
 
 function Experience() {
 
-  const capitaText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+  const capitaText = `Worked on production code, developing webapp bespoke business solutions.
+  My role involved developing features assigned to me & writing unit tests for my features. 
+  Solutions were built with an inhouse java framework & styled with CSS3. Features were populated from a SQL Server where I had to create tables & relationships from scratch.
+  I was also tasked with assisting new hires with getting them up to speed and troubleshooting any problems they had.`
 
-  const dublinText= `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+  const dublinText= `Maintained office computers to include setup, software installation & error troubleshooting.
+  Provided technical support & ensured a smooth workflow. 
+  Worked with windows, microsoft office, adobe and inhouse design & production software.`
 
   return (
     <div class="container">
@@ -95,7 +94,7 @@ function Experience() {
       title={'Software Developer Intern - Capita IBS'}
       duration={'April 2018 - September 2018'}
       mainText={capitaText}
-      skills={'Java, SQL, SQLServer, HTML, CSS3. '}
+      skills={'Java, SQL, SQLServer, Git, Jira, CSS3. '}
       />
     </div>
     <div class="row">  

@@ -26,42 +26,45 @@ function Projects() {
             <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + dba + ')', backgroundSize:'cover'}} />
             <Card.Body className="text-left">
               <Card.Text>
-                Dublin Bus Asssist. <br/>
-                Details here.
+                Android application for Dublin Bus<br/>
+                Built using android, XML & SOAP<br />
+                Provides bus real-time data alongside a prediction if the time is reliable.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="text-left">
-              <Card.Link href='#'>Github</Card.Link>
+              <Card.Link href='https://github.com/Damhan/DublinBusAssist'>Github</Card.Link>
             </Card.Footer>
           </Card>
         </div>
 
-        <div class="col card-col" align="center" style={{marginTop:'10vh'}}>
+        <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
           <Card  shadow={5} style={{minWidth:'300px', maxWidth:'400px'}} className="project-card">
             <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + portfolio + ')', backgroundSize:'cover'}} />
             <Card.Body>
               <Card.Text>
-                [placeholder]React notes here. <br/>
-                Details here.
+                React Personal Portfolio Website <br/>
+                Built using React,HTML/CSS3 & Bootstrap.<br/>
+                Showcases my work & skills with a clean, functional design.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="text-left">
-                <Card.Link href='#'>Github</Card.Link>
+                <Card.Link href='https://github.com/Damhan/ReactPortfolio'>Github</Card.Link>
             </Card.Footer>
           </Card>
       </div>
 
-        <div class="col card-col" align="center" style={{marginTop:'10vh'}}>
+        <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
           <Card shadow={5} style={{minWidth:'300px', maxWidth:'400px'}} className="project-card">
             <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + notes + ')', backgroundSize:'cover'}} />
             <Card.Body>
               <Card.Text>
-                React Portfolio website <br/>
-                Details here.
+                React Note taking website. <br/>
+                Built using boostrap, react & HTML/CSS3. <br/>
+                Users can add notes, delete notes & cross out completed notes.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="text-left">
-              <Card.Link href='#'>Github</Card.Link>
+              <Card.Link href='https://github.com/Damhan/ReactNotes'>Github</Card.Link>
             </Card.Footer>
           </Card>
         </div>

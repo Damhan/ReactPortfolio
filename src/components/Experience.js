@@ -66,30 +66,6 @@ function Experience() {
       </div>
     </div>
     <div class="row">
-      {/* <div class="col experience-card" style={{marginTop:'3vh'}}>
-        <div class="exp-title-wrapper text-left">
-        <h3>Software Developer Intern - Capita IBS</h3>
-        <hr class="exp-hr"/>
-        <b>April 2018 - September 2018</b>
-        <hr class="exp-hr"/>
-        </div>
-        <div class="exp-content-wrapper">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-             <hr class="exp-hr"/>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h3>Skills Included:</h3>
-            <p>
-            Java, SqlServer, SQL, CSS3, HTML
-            </p>
-          </div>
-        </div>
-        
-      </div> */}
       <ExperienceCard 
       title={'Software Developer Intern - Capita IBS'}
       duration={'April 2018 - September 2018'}

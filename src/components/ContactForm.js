@@ -1,6 +1,5 @@
 import React from 'react';
 import './../App.css';
-import { FaGratipay } from 'react-icons/fa';
 
 class ContactForm extends React.Component {
 

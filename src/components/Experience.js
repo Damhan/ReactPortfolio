@@ -32,6 +32,7 @@ function Experience() {
             <Skill className="text-left" value={"Android"}/>
             <Skill className="text-left" value={"Bootstrap"}/>
             <Skill className="text-left" value={"HTML/CSS3"}/>
+            <Skill className="text-left" value={"Javascript"}/>
             
           </div>
           
@@ -40,10 +41,11 @@ function Experience() {
           
           <div class="skills-wrapper text-left">
             <h3 class="skills-title">Backend</h3>
-            <Skill className="text-left" value={"Node"}/>
+            <Skill className="text-left" value={"NodeJS"}/>
             <Skill className="text-left" value={"Python"}/>
             <Skill className="text-left" value={"Java"}/>
-            <Skill className="text-left" value={"SQL"}/>
+            <Skill className="text-left" value={"MySQL/SQLServer"}/>
+            <Skill className="text-left" value={"GraphQL"}/>
             
           </div>
         </div>
@@ -52,8 +54,11 @@ function Experience() {
           <div class="skills-wrapper text-left">
             <h3 class="skills-title">Other</h3>
             <Skill className="text-left" value={"Git"}/>
+            <Skill className="text-left" value={"SVN"}/>
             <Skill className="text-left" value={"Jira"}/>
-            <Skill className="text-left" value={"AWS"}/>  
+            <Skill className="text-left" value={"AWS"}/>
+            <Skill className="text-left" value={"GCP"}/>
+            
             
           </div>
         </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import './../App.css';
 import Card from 'react-bootstrap/Card';
-import {Link} from 'react-router-dom';
 import dba from '../assets/DublinBusAssist.png';
 import portfolio from '../assets/portfolio.PNG';
 import notes from '../assets/reactNotes.PNG';

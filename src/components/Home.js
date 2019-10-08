@@ -1,8 +1,6 @@
 import React from 'react';
 import './../App.css';
-import {FaCircleNotch} from 'react-icons/fa';
 import { SocialIcon } from 'react-social-icons';
-import Skill from './Skill';
 import TextLoop from 'react-text-loop';
 import Button from 'react-bootstrap/Button';
 
@@ -18,15 +16,17 @@ function Home() {
                     <p class="home-banner-subtext">I'm a <TextLoop interval={2000}>
                                                             <span class="loop-items">[React]</span>                                                           
                                                             <span class="loop-items">[Bootstrap]</span>
-                                                            <span class="loop-items">[Android]</span>
+                                                            <span class="loop-items">[GraphQL]</span>
                                                             <span class="loop-items">[Javascript]</span>
-                                                        </TextLoop> developer located in Dublin Ireland.</p>
+                                                            <span class="loop-items">[Java]</span>
+                                                            <span class="loop-items">[Python]</span>
+                                                        </TextLoop> developer located in Vancouver, BC.</p>
                     <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} href="/projects" >Projects</Button>
                 </div>
                 
             </div>
             <div class="col main-text">
-                <img src="me.jpg" class="header-img"/>
+                <img src="me.jpg" class="header-img" alt="damhan headshot"/>
                 <div class="container">
                     <div class="row">
                         <div class="col social-icon">

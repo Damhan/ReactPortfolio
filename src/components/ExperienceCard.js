@@ -1,10 +1,5 @@
 import React from 'react';
 import './../App.css';
-import { Link } from 'react-router-dom';
-import {FaCircleNotch} from 'react-icons/fa';
-import { SocialIcon } from 'react-social-icons';
-import { whileStatement, tsConstructorType } from '@babel/types';
-import circle from './../assets/circle.png';
 
 function ExperienceCard(props) {
 

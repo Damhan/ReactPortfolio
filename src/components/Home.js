@@ -4,7 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import TextLoop from 'react-text-loop';
 import Button from 'react-bootstrap/Button';
 
-function Home() {
+function Home(props) {
 
     
   return (
@@ -21,7 +21,7 @@ function Home() {
                                                             <span class="loop-items">[Java]</span>
                                                             <span class="loop-items">[Python]</span>
                                                         </TextLoop> developer located in Vancouver, BC.</p>
-                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} href="/projects" >Projects</Button>
+                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} onClick={()=> {props.history.push('Projects')}} >Projects</Button>
                 </div>
                 
             </div>

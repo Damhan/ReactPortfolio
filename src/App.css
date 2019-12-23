@@ -15,6 +15,10 @@ nav {
   padding-left:30px;
 }
 
+.navlinks:hover {
+  text-decoration: underline;
+}
+
 .navbar-text {
   color:white !important;
 }
@@ -215,7 +219,6 @@ nav {
 hr {
   border-style: solid;
   border-color: black !important;
-  width:25vh;
   margin-left:0;
   margin-right:auto;
 }
@@ -239,6 +242,7 @@ hr {
 
 .exp-title {
   color: #4d4d4d;
+  font-size:1.2em;
 }
 
 .exp-maintext {
@@ -246,8 +250,16 @@ hr {
   font-size: 1.2em;
 }
 
+.exp-img {
+  padding:5vh;
+}
+
 .skills-wrapper {
   min-width: 200px;
+}
+
+.skill-container {
+  padding-left: 4vw;
 }
 
 

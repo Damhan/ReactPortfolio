@@ -18,7 +18,7 @@ function Experience() {
     <div>
     <div class="background-div">
     <div class="container">
-      <div class="row text-left" style={{marginTop:'10vh'}}>
+      <div class="row" style={{marginTop:'10vh'}}>
         <div class="col">
           <h2 id="skill-header">Skills</h2>
           <hr/>
@@ -28,59 +28,66 @@ function Experience() {
         <div class="col">
 
           
-          <div class="skills-wrapper text-left">
+          <div class="skills-wrapper">
             <h3 class="skills-title">Frontend</h3>
-            <Skill className="text-left" value={"React"}/>
-            <Skill className="text-left" value={"Android"}/>
-            <Skill className="text-left" value={"Bootstrap"}/>
-            <Skill className="text-left" value={"HTML/CSS3"}/>
-            <Skill className="text-left" value={"Javascript"}/>
-            
+            <div className="text-left skill-container">
+              <Skill className="text-left" value={"React"}/>
+              <Skill className="text-left" value={"Android"}/>
+              <Skill className="text-left" value={"Bootstrap"}/>
+              <Skill className="text-left" value={"HTML/CSS3"}/>
+              <Skill className="text-left" value={"Javascript"}/>
+            </div>
           </div>
           
         </div>
         <div class="col">
           
-          <div class="skills-wrapper text-left">
+          <div class="skills-wrapper">
             <h3 class="skills-title">Backend</h3>
+            <div className="text-left skill-container">
             <Skill className="text-left" value={"NodeJS"}/>
             <Skill className="text-left" value={"Python"}/>
             <Skill className="text-left" value={"Java"}/>
             <Skill className="text-left" value={"MySQL/SQLServer"}/>
             <Skill className="text-left" value={"GraphQL"}/>
-            
+            </div>
           </div>
         </div>
         <div class="col">
           
-          <div class="skills-wrapper text-left">
+          <div class="skills-wrapper">
             <h3 class="skills-title">Other</h3>
-            <Skill className="text-left" value={"Git"}/>
-            <Skill className="text-left" value={"SVN"}/>
-            <Skill className="text-left" value={"Jira"}/>
-            <Skill className="text-left" value={"AWS"}/>
-            <Skill className="text-left" value={"GCP"}/>
-            
-            
+            <div className="text-left skill-container">
+              <Skill className="text-left" value={"Git"}/>
+              <Skill className="text-left" value={"SVN"}/>
+              <Skill className="text-left" value={"Jira"}/>
+              <Skill className="text-left" value={"AWS"}/>
+              <Skill className="text-left" value={"GCP"}/>
+            </div>
           </div>
         </div>
       </div>
       
 
-    <div class="row text-left" style={{marginTop:'10vh'}}>
+    <div class="row" style={{marginTop:'10vh'}}>
       <div class="col">
         <h2 id="skill-header">Experience</h2>
       </div>
     </div>
     <div class="row">
+    <hr class="exp-hr"/>
       <ExperienceCard 
       title={'Software Developer Intern - Capita IBS'}
       duration={'April 2018 - September 2018'}
       mainText={capitaText}
       skills={'Java, SQL, SQLServer, Git, Jira, CSS3. '}
+      className=""
       />
+      <img src={require("./../assets/capita.jpg")} height="50%" alt="capita-logo" className="exp-img"/>
     </div>
-    <div class="row">  
+    <div class="row">
+    <hr class="exp-hr"/>
+      <img src={require("./../assets/dubneon.png")} width="35%" alt="capita-logo" className="exp-img"/>  
       <ExperienceCard 
         title={'Office IT Support & Admin - Dublin Neon Co.'}
         duration={'March 2017 - September 2017'}

@@ -7,7 +7,7 @@ function Navb() {
 
   return (
 
-  <Navbar collapseOnSelect expand="lg">
+  <Navbar collapseOnSelect expand="lg" className="stroke">
     <Link to="/">
       <Navbar.Brand className="navbar-brand">Damhan</Navbar.Brand>
     </Link>

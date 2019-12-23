@@ -6,12 +6,10 @@ function ExperienceCard(props) {
   return (
 
     <div class="col experience-card" style={{marginTop:'3vh'}}>
-
-      <hr class="exp-hr"/>
       
         <div class="exp-title-wrapper text-left">
           <h3 class="exp-title">{props.title}</h3>
-          <b class="exp-title">{props.duration}</b>
+          <h3 class="exp-title">{props.duration}</h3>
         </div>
         
         <div class="exp-content-wrapper text-left">
@@ -19,7 +17,7 @@ function ExperienceCard(props) {
         </div>
         
         <div class="row">
-          <div class="col">
+          <div class="col text-left">
             <h3 class="exp-title">Skills Included:</h3>
             <p class="exp-maintext">
             {props.skills}

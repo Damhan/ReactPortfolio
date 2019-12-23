@@ -60,18 +60,18 @@ nav {
 .skills-text {
   display:inline-block;
   padding-left:10px;
-  color:white;
+  color: #636363;
   font-size:25px;
 }
 
 #skill-header {
-  color:#B39E29;
+  color: #4d4d4d;
   font-size: 10vh;
   font-weight: 400;
 }
 
 .skills-title {
-  color:#B39E29;
+  color:#4d4d4d;
   font-size:4vh;
 }
 
@@ -116,14 +116,14 @@ nav {
 
 .contact-form-sect {
   display: block;
-  border: 5px solid #B39E29;
+  border: 1px solid #B39E29;
   border-radius: 5px;
   margin: 0 auto;
   padding: 0 0 10px 10px;
   max-width: 650px;
   min-width: 300px;
   width:30vw;
-  background-color: #B39E29;
+  background-image: url("./assets/spikes.png");
 }
 
 .contact-form {
@@ -214,7 +214,7 @@ nav {
 
 hr {
   border-style: solid;
-  border-color: #B39E29 !important;
+  border-color: black !important;
   width:25vh;
   margin-left:0;
   margin-right:auto;
@@ -233,11 +233,42 @@ hr {
 }
 
 .experience-card {
-  background: #B34E40 ;
   border-radius: 2px;
   margin:5px;
 }
 
+.exp-title {
+  color: #4d4d4d;
+}
+
+.exp-maintext {
+  color: #636363;
+  font-size: 1.2em;
+}
+
 .skills-wrapper {
   min-width: 200px;
+}
+
+
+.background-div {
+  border-radius: 3px;
+  background: whitesmoke;
+  background-image: url("./assets/spikes.png");
+}
+
+@media only screen and (min-width: 600px) {
+  .background-div {
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom:5vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .background-div {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

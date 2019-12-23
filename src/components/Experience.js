@@ -15,6 +15,8 @@ function Experience() {
   Worked with windows, microsoft office, adobe and inhouse design & production software.`
 
   return (
+    <div>
+    <div class="background-div">
     <div class="container">
       <div class="row text-left" style={{marginTop:'10vh'}}>
         <div class="col">
@@ -63,11 +65,11 @@ function Experience() {
           </div>
         </div>
       </div>
+      
 
     <div class="row text-left" style={{marginTop:'10vh'}}>
       <div class="col">
         <h2 id="skill-header">Experience</h2>
-        <hr class="experience"/>
       </div>
     </div>
     <div class="row">
@@ -86,6 +88,9 @@ function Experience() {
         skills={'Microsoft Office, Windows'}
         />
     </div>
+  </div>
+  </div>
+  <br/>
   </div>
   );
 }

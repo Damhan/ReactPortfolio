@@ -3,7 +3,7 @@ import './../App.css';
 import Card from 'react-bootstrap/Card';
 import dba from '../assets/DublinBusAssist.png';
 import portfolio from '../assets/portfolio.PNG';
-import notes from '../assets/reactNotes.PNG';
+import serify from '../assets/serify.png';
 function Projects() {
 
   return (
@@ -19,22 +19,6 @@ function Projects() {
       </div>
 
       <div class="row" style={{'padding-top':"5vh", paddingLeft:"5vw", paddingRight:"5vw" , justifyContent:'space-around'}} align="center" >
-
-        <div class="col card-col" align="center" style={{marginTop:'10vh'}}>
-          <Card shadow={5} style={{minWidth:'200px', maxWidth:'400px'}} className="project-card">
-            <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + dba + ')', backgroundSize:'cover'}} />
-            <Card.Body className="text-left">
-              <Card.Text>
-                Android application for Dublin Bus<br/>
-                Built using android, XML & SOAP<br />
-                Provides bus real-time data alongside a prediction if the time is reliable.
-              </Card.Text>
-            </Card.Body>
-            <Card.Footer className="text-left">
-              <Card.Link href='https://github.com/Damhan/DublinBusAssist'>Github</Card.Link>
-            </Card.Footer>
-          </Card>
-        </div>
 
         <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
           <Card  shadow={5} style={{minWidth:'300px', maxWidth:'400px'}} className="project-card">
@@ -52,21 +36,39 @@ function Projects() {
           </Card>
       </div>
 
-        <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
+      <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
           <Card shadow={5} style={{minWidth:'300px', maxWidth:'400px'}} className="project-card">
-            <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + notes + ')', backgroundSize:'cover'}} />
+            <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + serify + ')', backgroundSize:'cover'}} />
             <Card.Body>
               <Card.Text>
-                React Note taking website. <br/>
-                Built using boostrap, react & HTML/CSS3. <br/>
-                Users can add notes, delete notes & cross out completed notes.
+                SPA for exploring books written in React Hooks. <br/>
+                Styled with Sass and bundled with webpack. <br/>
+                Deployed on github pages, users can search, order books by date and length.
               </Card.Text>
             </Card.Body>
             <Card.Footer className="text-left">
-              <Card.Link href='https://github.com/Damhan/ReactNotes'>Github</Card.Link>
+              <Card.Link href='https://github.com/Damhan/Serify'>Github</Card.Link>
+              <Card.Link href='https://damhan.github.io/Serify'>View on gh-pages</Card.Link>
             </Card.Footer>
           </Card>
         </div>
+
+      <div class="col card-col" align="center" style={{marginTop:'10vh'}}>
+          <Card shadow={5} style={{minWidth:'200px', maxWidth:'400px'}} className="project-card">
+            <Card.Title style={{color:'#fff',height:'200px', backgroundImage:'url(' + dba + ')', backgroundSize:'cover'}} />
+            <Card.Body className="text-left">
+              <Card.Text>
+                Android application for Dublin Bus<br/>
+                Built using android, XML & SOAP<br />
+                Provides bus real-time data alongside a prediction if the time is reliable.
+              </Card.Text>
+            </Card.Body>
+            <Card.Footer className="text-left">
+              <Card.Link href='https://github.com/Damhan/DublinBusAssist'>Github</Card.Link>
+            </Card.Footer>
+          </Card>
+        </div>
+
       </div> 
     </div>
   );

@@ -2,13 +2,11 @@ html, body {overflow-x: hidden;}
 
 .App {
   text-align: center;
-  background: #1A1A1D;
+  background-image: url("./background.jpg");
   min-height: 100vh;
 }
 
 nav {
-  background:#1A1A1D;
-  box-shadow: 0 4px 2px -2px rgb(14, 14, 15);
 
 }
 .navlinks {
@@ -20,11 +18,16 @@ nav {
 }
 
 .navbar-text {
-  color:white !important;
+  color:#9840d0 !important;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .navbar-brand {
-  color:#B39E29 !important;
+  color:#FC1B27 !important;
+  font-size: 17px;
+  font-weight: 600;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .padded-main-content {
@@ -34,6 +37,7 @@ nav {
 .main-text {
   color:white;
   margin-left: 5vw;
+  font-size: 15px;
 }
 
 .header-img {
@@ -42,10 +46,11 @@ nav {
 }
 
 .home-banner {
-  color:#B39E29;
+  color:#FC1B27;
   font-weight:700;
   margin-bottom: 0;
   margin-left: 0;
+  -webkit-text-stroke: 0.75px black;
 }
 
 .home-banner-subtext {
@@ -81,6 +86,7 @@ nav {
 
 .social-icon {
   margin:3vh;
+  
 }
 
 .projects-title-text {
@@ -177,15 +183,16 @@ nav {
 }
 
 .loop-items {
-  color:#B34E40;
+  color:#FC1B27;
+  -webkit-text-stroke: 0.1px black;
 }
 
 .social-icons .social-svg {
-  color: #B34E40;
+  color: #FC1B27;
 }
 
 .social-icons .social-svg:hover{
-  color: rgb(190, 96, 84);
+  color: rgb(252, 27, 39);
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */

@@ -1,4 +1,11 @@
-html, body {overflow-x: hidden;}
+html, body {
+  overflow-x: hidden;
+  min-height: 100%!important;
+}
+
+html {
+  height: 100%;
+}
 
 .App {
   text-align: center;
@@ -6,26 +13,28 @@ html, body {overflow-x: hidden;}
   min-height: 100vh;
 }
 
-nav {
-
-}
 .navlinks {
   padding-left:30px;
 }
 
 .navlinks:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color:#ffffff !important;
+
 }
 
 .navbar-text {
   color:#9840d0 !important;
   font-size: 17px;
   font-weight: 500;
+  -webkit-transition: color 0.75s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.75s; /* For modern browsers */
 }
 
 .navbar-brand {
   color:#FC1B27 !important;
-  font-size: 17px;
+  font-size: 22px !important
+  ;
   font-weight: 600;
   -webkit-text-stroke: 0.1px black;
 }
@@ -183,16 +192,18 @@ nav {
 }
 
 .loop-items {
-  color:#FC1B27;
+  color:#9840d0;
   -webkit-text-stroke: 0.1px black;
 }
 
 .social-icons .social-svg {
   color: #FC1B27;
+  -webkit-transition: color 0.5s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.5s; /* For modern browsers */
 }
 
 .social-icons .social-svg:hover{
-  color: rgb(252, 27, 39);
+  color: #ff515a;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -207,20 +218,6 @@ nav {
   .home-banner {
     font-size: 40px;
   }
-}
-
-.lander-but:hover {
-  background-color: #B34E40 !important;
-  border-style: solid;
-  border-color: rgb(134, 51, 40) !important;
-  border-width: 2px;
-  outline: 0 !important;
-}
-
-.lander-but {
-  border-style: solid;
-  border-color: rgb(148, 129, 22) !important;
-  border-width: 2px !important;
 }
 
 hr {
@@ -290,4 +287,37 @@ hr {
     margin-left: 0;
     margin-right: 0;
   }
+}
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+.box {
+  position: relative;
+  padding-right: 10px;
+  color:white;
+  font-weight: 400;
+  opacity: .5;
+}
+
+.footCopy {
+  position: absolute;
+  right: 0;
+  bottom:0;
+
 }

@@ -5,7 +5,6 @@ import Home from './Home';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
-import Particles from 'react-particles-js';
 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
@@ -22,7 +21,6 @@ function App() {
             <Route path="/experience" component={Experience} />
             <Route path="/contact" component={Contact} />
           </Switch>
-          
       </div>
 
     </BrowserRouter>

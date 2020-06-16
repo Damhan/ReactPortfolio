@@ -9,7 +9,7 @@ function Navb() {
 
   <Navbar collapseOnSelect expand="lg" className="stroke">
     <Link to="/">
-      <Navbar.Brand className="navbar-brand">Damhan</Navbar.Brand>
+      <Navbar.Brand className="navbar-brand hvr-grow">Damhan</Navbar.Brand>
     </Link>
     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
     <Navbar.Collapse id="responsive-navbar-nav">

@@ -2,7 +2,8 @@ import React from 'react';
 import './../App.css';
 import { SocialIcon } from 'react-social-icons';
 import TextLoop from 'react-text-loop';
-import Button from 'react-bootstrap/Button';
+import { Button } from 'antd';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 function Home(props) {
 
@@ -15,13 +16,13 @@ function Home(props) {
                     <p class="home-banner">I'm Damhan Richardson.</p>
                     <p class="home-banner-subtext">I'm a <TextLoop interval={2000}>
                                                             <span class="loop-items">[React]</span>                                                           
-                                                            <span class="loop-items">[Bootstrap]</span>
-                                                            <span class="loop-items">[GraphQL]</span>
+                                                            <span class="loop-items">[SQL]</span>
+                                                            <span class="loop-items">[React-Native]</span>
                                                             <span class="loop-items">[Javascript]</span>
                                                             <span class="loop-items">[Java]</span>
                                                             <span class="loop-items">[Python]</span>
                                                         </TextLoop> developer located in Vancouver, BC.</p>
-                    <Button className="lander-but" style={{color:'#1A1A1D', backgroundColor:'#B39E29'}} onClick={()=> {props.history.push('Projects')}} >Projects</Button>
+                    <Button type="primary lander-link " size="large" style={{fontWeight:500}}danger onClick={()=> {props.history.push('Projects')}} >PROJECTS</Button>
                 </div>
                 
             </div>

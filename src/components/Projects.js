@@ -48,7 +48,6 @@ function Projects() {
             </Card.Body>
             <Card.Footer className="text-left">
               <Card.Link href='https://github.com/Damhan/Serify'>Github</Card.Link>
-              <Card.Link href='https://damhan.github.io/Serify'>View on gh-pages</Card.Link>
             </Card.Footer>
           </Card>
         </div>

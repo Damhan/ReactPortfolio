@@ -50,12 +50,12 @@ html {
 }
 
 .header-img {
-  border-radius: 50% 50% 50% 50%;
-  width:60%;
+  padding-top: 10%;
+  width:70%;
 }
 
 .home-banner {
-  color:#FC1B27;
+  color:#FF4D4F;
   font-weight:700;
   margin-bottom: 0;
   margin-left: 0;
@@ -65,6 +65,10 @@ html {
 .home-banner-subtext {
   font-weight: 600;
   font-size: 24px;
+}
+
+.svg-sub-text {
+  padding-left: 2vw;
 }
 
 .skills-div {
@@ -110,6 +114,7 @@ html {
 }
 
 .card-col {
+ padding: 0!important;
  max-width: 450px !important;
 }
 
@@ -197,13 +202,13 @@ html {
 }
 
 .social-icons .social-svg {
-  color: #FC1B27;
+  color: #FF4D4F;
   -webkit-transition: color 0.5s; /* For Safari 3.0 to 6.0 */
   transition: color 0.5s; /* For modern browsers */
 }
 
 .social-icons .social-svg:hover{
-  color: #ff515a;
+  color: #ff6e71;
 }
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -320,4 +325,50 @@ hr {
   right: 0;
   bottom:0;
 
+}
+
+.ant-card-hoverable :hover{
+  opacity:1!important;
+  background-color: #424242!important;
+}
+
+.test-img {
+  height:100%;
+  width:100%;
+}
+
+
+.wrapper-ex {
+  min-width: 300px;
+  max-width: 450px;
+  min-height: 1080px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #424242;
+}
+
+.wrapper-ex:hover .overlay {
+  opacity: 0.9;
+}
+
+.example-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

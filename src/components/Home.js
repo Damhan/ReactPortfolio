@@ -27,9 +27,17 @@ function Home(props) {
                 
             </div>
             <div class="col main-text">
-                <img src="me.jpg" class="header-img" alt="damhan headshot"/>
+                {/* <img src="me.jpg" class="header-img" alt="damhan headshot"/> */}
+
                 <div class="container">
-                    <div class="row">
+                    <div className="row">
+                        <div className="col">
+                            <img src="responsive_final.svg" class="header-img" alt="Landing svg"/>
+                            <p className="home-banner-subtext">I develop responsive websites fullstack and offer a range of web solutions from IT consulting and
+                            web development to general purpose programming.</p>
+                        </div>
+                    </div>
+                    <div className="row">
                         <div class="col social-icon">
                             <SocialIcon className="social-icons" url="https://www.linkedin.com/in/damhan-richardson-2a597a115/" bgColor="currentColor"/>
                             <SocialIcon className="social-icons" url="https://github.com/Damhan" bgColor="currentColor" />

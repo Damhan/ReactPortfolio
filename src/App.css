@@ -103,7 +103,7 @@ html {
 }
 
 .projects-title-text {
-  color:#B34E40;
+  color:#FF4D4F;
   font-size: 36px;
   padding-left: 10vw;
 }
@@ -126,28 +126,24 @@ html {
 }
 
 .proj-git-link {
-  color:#B39E29 !important;
-  position: relative;
-  top:0;
-  transition: top ease 0.5s;
+  color:#9840d0 !important;
+  font-size: 36px;
+  -webkit-transition: color 0.75s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.75s; /* For modern browsers */
 }
 
 
 .proj-git-link:hover {
-  color:rgb(209, 185, 49) !important;
-  top: -2px;
+  color: #fafafa !important;
 }
 
 .contact-form-sect {
   display: block;
-  border: 1px solid #B39E29;
-  border-radius: 5px;
   margin: 0 auto;
   padding: 0 0 10px 10px;
   max-width: 650px;
   min-width: 300px;
   width:30vw;
-  background-image: url("./assets/spikes.png");
 }
 
 .contact-form {
@@ -175,16 +171,18 @@ html {
 .contact-sub {
   width: 50%;
   height: 50px;
-  background-color: rgb(224, 198, 48);
+  background-color: #FF4D4F;
   border: 0;
   color: rgb(0, 0, 0);
   border-radius: 5px;
   margin: 10px 0 0 0;
   font-size: 18px;
+  -webkit-transition: border 0.75s!important; /* For Safari 3.0 to 6.0 */
+  transition: border 0.75s!important /* For modern browsers */
 }
 
 .contact-sub:hover {
-  border: 2px solid rgba(50, 50, 56, 0.404);
+  border: 1px solid rgba(50, 50, 56, 0.404);
 }
 
 .cf-title {
@@ -341,7 +339,7 @@ hr {
 .wrapper-ex {
   min-width: 300px;
   max-width: 450px;
-  min-height: 1080px;
+
 }
 
 .overlay {
@@ -371,4 +369,35 @@ hr {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  text-decoration: none !important;
+}
+
+.example-text:hover {
+  color: #ff6e71;
+}
+
+.service-icon {
+  max-height: 80px;
+}
+
+.heading-container {
+  min-height: 75px;
+  max-height: 100px;
+}
+
+.heading-container h2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.body-container {
+  min-height: 100px;
+  max-height: 150px;
+  color:#1f1f1f;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.service-container {
+  min-width: 300px;
 }

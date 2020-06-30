@@ -56,7 +56,6 @@ class ContactForm extends React.Component {
 
           <p class="form-labels">Name:</p>
           <input
-            type="text"
             name="name"
             value={this.state.name}
             onChange={this.onChange}

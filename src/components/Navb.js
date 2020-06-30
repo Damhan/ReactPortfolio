@@ -19,7 +19,7 @@ function Navb() {
                </Link>
               
                <Link to="/experience">
-                 <li class="navbar-text navlinks" >Experience</li>
+                 <li class="navbar-text navlinks" >Services</li>
                </Link>
 
                <Link to="/contact">

@@ -2,6 +2,12 @@ import React from 'react';
 import './../App.css';
 import Skill from './Skill';
 import ExperienceCard from './ExperienceCard';
+import website from '../assets/Website.svg';
+import ecommerce from '../assets/Ecommerce.svg';
+import seo from '../assets/SEO.svg';
+import mobile from '../assets/Mobile Payment.svg';
+import budget from '../assets/Budget.svg';
+import contract from '../assets/Software Companes.svg';
 
 function Experience() {
 
@@ -16,89 +22,90 @@ function Experience() {
 
   return (
     <div>
-    <div class="background-div">
-    <div class="container">
-      <div class="row" style={{marginTop:'10vh'}}>
-        <div class="col">
-          <h2 id="skill-header">Skills</h2>
-          <hr/>
-        </div>
-      </div>
-      <div class="row" style={{marginTop:'5vh'}}>
-        <div class="col">
+      <div className="container">
 
-          
-          <div class="skills-wrapper">
-            <h3 class="skills-title">Frontend</h3>
-            <div className="text-left skill-container">
-              <Skill className="text-left" value={"React"}/>
-              <Skill className="text-left" value={"Android"}/>
-              <Skill className="text-left" value={"Bootstrap"}/>
-              <Skill className="text-left" value={"HTML/CSS3"}/>
-              <Skill className="text-left" value={"Javascript"}/>
-            </div>
-          </div>
-          
-        </div>
-        <div class="col">
-          
-          <div class="skills-wrapper">
-            <h3 class="skills-title">Backend</h3>
-            <div className="text-left skill-container">
-            <Skill className="text-left" value={"NodeJS"}/>
-            <Skill className="text-left" value={"Python"}/>
-            <Skill className="text-left" value={"Java"}/>
-            <Skill className="text-left" value={"MySQL/SQLServer"}/>
-            <Skill className="text-left" value={"GraphQL"}/>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          
-          <div class="skills-wrapper">
-            <h3 class="skills-title">Other</h3>
-            <div className="text-left skill-container">
-              <Skill className="text-left" value={"Git"}/>
-              <Skill className="text-left" value={"SVN"}/>
-              <Skill className="text-left" value={"Jira"}/>
-              <Skill className="text-left" value={"AWS"}/>
-              <Skill className="text-left" value={"GCP"}/>
-            </div>
-          </div>
-        </div>
-      </div>
-      
 
-    <div class="row" style={{marginTop:'10vh'}}>
-      <div class="col">
-        <h2 id="skill-header">Experience</h2>
+        <div className="row services-container" style={{paddingTop:"10vh"}}>
+          
+          <div className="col">
+            <div className="service-container text-center">
+              <img src={website} className="service-icon" alt="Landing svg"/>
+              <div className="heading-container">
+                <h2>Web Design and Development</h2>
+              </div>
+              <div className="body-container">
+                <p>Custom, modern and responsive designs, optimized for performance, search engines and converting clicks to users.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="service-container text-center">
+              <img src={ecommerce} className="service-icon" alt="Landing svg"/>
+              <div className="heading-container">
+                <h2>Ecommerce solutions</h2>
+              </div>
+              <div className="body-container">
+                <p>Custom ecommerce websites, available on all major platforms. Easily edit modify and update your store.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="service-container text-center">
+              <img src={seo} className="service-icon" alt="Landing svg"/>
+              <div className="heading-container">
+                <h2>Performance and SEO Analysis</h2>
+              </div>
+              <div className="body-container">
+                <p>Analyse and solve your websites performance issues, loading times and SEO.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="row services-container">
+          <div className="col">
+              <div className="service-container text-center">
+                <img src={mobile} className="service-icon" alt="Landing svg"/>
+                <div className="heading-container">
+                  <h2>Mobile Development</h2>
+                </div>
+                <div className="body-container">
+                  <p>Create a mobile application that fulfills your needs ensuring ease of use and simplicity for your audience.</p>
+                </div>
+              </div>
+            </div>
+
+         <div className="col">
+              <div className="service-container text-center">
+                <img src={budget} className="service-icon" alt="Landing svg"/>
+                <div className="heading-container">
+                  <h2>Affordable solutions</h2>
+                </div>
+                <div className="body-container">
+                  <p>Create a website that represents your brand for an affordable price on a range of platforms.</p>
+                </div>
+              </div>
+         </div>
+
+          <div className="col">
+              <div className="service-container text-center">
+                <img src={contract} className="service-icon" alt="Landing svg"/>
+                <div className="heading-container">
+                  <h2>Affordable solutions</h2>
+                </div>
+                <div className="body-container">
+                  <p>Create a website that represents your brand for an affordable price on a range of platforms.</p>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
+
     </div>
-    <div class="row">
-    <hr class="exp-hr"/>
-      <ExperienceCard 
-      title={'Software Developer Intern - Capita IBS'}
-      duration={'April 2018 - September 2018'}
-      mainText={capitaText}
-      skills={'Java, SQL, SQLServer, Git, Jira, CSS3. '}
-      className=""
-      />
-      <img src={require("./../assets/capita.jpg")} height="50%" alt="capita-logo" className="exp-img"/>
-    </div>
-    <div class="row">
-    <hr class="exp-hr"/>
-      <img src={require("./../assets/dubneon.png")} width="35%" alt="capita-logo" className="exp-img"/>  
-      <ExperienceCard 
-        title={'Office IT Support & Admin - Dublin Neon Co.'}
-        duration={'March 2017 - September 2017'}
-        mainText={dublinText}
-        skills={'Microsoft Office, Windows'}
-        />
-    </div>
-  </div>
-  </div>
-  <br/>
-  </div>
   );
 }
 

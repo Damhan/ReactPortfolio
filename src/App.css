@@ -44,7 +44,7 @@ html {
 }
 
 .main-text {
-  color:white;
+  color:#3b3b3b;
   margin-left: 5vw;
   font-size: 15px;
 }
@@ -388,13 +388,14 @@ hr {
 .heading-container h2 {
   font-size: 1.5rem;
   padding-top: 20px;
+  font-weight: 600;
 }
 
 .body-container {
   min-height: 100px;
   max-height: 150px;
   color:#1f1f1f;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.1rem;
 }
 

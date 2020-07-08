@@ -19,7 +19,7 @@ function Projects() {
         <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
             <img alt="example" src={tile1} className="test-img"/>
             <div className="overlay">
-              <a className="example-text" href="https://github.com/Damhan/ReactPortfolio" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a className="example-text" href="https://github.com/Damhan/ReactPortfolio" target="_blank" rel="noopener noreferrer">ReactJS Application <br/> [View Project]</a>
             </div>
         </div>
       </div>
@@ -29,7 +29,7 @@ function Projects() {
           <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
               <img alt="example" src={tile2} className="test-img"/>
               <div className="overlay">
-              <a className="example-text" href="https://play.google.com/store/apps/details?id=com.damhan.simplibudget" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a className="example-text" href="https://play.google.com/store/apps/details?id=com.damhan.simplibudget" target="_blank" rel="noopener noreferrer">Mobile Application <br/> [View Project]</a>
               </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ function Projects() {
           <div class="col card-col text-left" align="center" style={{marginTop:'10vh'}}>
               <img alt="example" src={tile3} className="test-img"/>
               <div className="overlay">
-              <a className="example-text" href="https://github.com/Damhan/Serify" target="_blank" rel="noopener noreferrer">View Project</a>
+              <a className="example-text" href="https://github.com/Damhan/Serify" target="_blank" rel="noopener noreferrer">ReactJS Application <br/> [View Project]</a>
               </div>
         </div>
       </div>

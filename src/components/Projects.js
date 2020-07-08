@@ -3,13 +3,9 @@ import './../App.css';
 import tile1 from '../assets/Tile1.png';
 import tile2 from '../assets/Tile2.png';
 import tile3 from '../assets/Tile3.png';
-import { Card } from 'antd';
 
 
 function Projects() {
-
-  const { Meta } = Card;
-
 
   return (
     <div class="container-flud padded-main-content">

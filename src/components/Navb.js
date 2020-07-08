@@ -1,7 +1,8 @@
 import React from 'react';
 import './../App.css';
 import { Link } from 'react-router-dom';
-import Navbar from 'react-bootstrap/Navbar'
+import Navbar from 'react-bootstrap/Navbar';
+import drresume from './../assets/drresume.pdf';
 
 function Navb() {
 
@@ -21,6 +22,9 @@ function Navb() {
                <Link to="/experience">
                  <li class="navbar-text navlinks" >Services</li>
                </Link>
+               <Link to={drresume} target="_blank">
+                 <li class="navbar-text navlinks" >Resume</li>
+                </Link>
 
                <Link to="/contact">
                  <li class="navbar-text navlinks" >Contact</li>

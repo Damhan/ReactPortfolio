@@ -1,7 +1,5 @@
 import React from 'react';
 import './../App.css';
-import Skill from './Skill';
-import ExperienceCard from './ExperienceCard';
 import website from '../assets/Website.svg';
 import ecommerce from '../assets/Ecommerce.svg';
 import seo from '../assets/SEO.svg';
@@ -10,15 +8,6 @@ import budget from '../assets/Budget.svg';
 import contract from '../assets/Software Companes.svg';
 
 function Experience() {
-
-  const capitaText = `Worked on production code, developing webapp bespoke business solutions.
-  My role involved developing features assigned to me & writing unit tests for my features. 
-  Solutions were built with an inhouse java framework & styled with CSS3. Features were populated from a SQL Server where I had to create tables & relationships from scratch.
-  I was also tasked with assisting new hires with getting them up to speed and troubleshooting any problems they had.`
-
-  const dublinText= `Maintained office computers to include setup, software installation & error troubleshooting.
-  Provided technical support & ensured a smooth workflow. 
-  Worked with windows, microsoft office, adobe and inhouse design & production software.`
 
   return (
     <div>

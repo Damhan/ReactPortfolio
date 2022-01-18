@@ -33,7 +33,7 @@ function Home(props) {
                     <div className="row">
                         <div className="col">
                             <img src="responsive_final.svg" class="header-img" alt="Landing svg"/>
-                            <p className="home-banner-subtext">I develop responsive websites fullstack and offer a range of web solutions from IT consulting and
+                            <p className="home-banner-subtext">I develop responsive websites fullstack and offer a range of web solutions from
                             web development to general purpose programming.</p>
                         </div>
                     </div>

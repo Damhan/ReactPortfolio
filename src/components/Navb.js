@@ -19,9 +19,10 @@ function Navb() {
                  <li class="navbar-text navlinks" >Projects</li>
                </Link>
               
-               <Link to="/experience">
+               {/*Experience page currently shelved*/}
+               {/* <Link to="/experience">
                  <li class="navbar-text navlinks" >Services</li>
-               </Link>
+               </Link> */}
                <Link to={drresume} target="_blank">
                  <li class="navbar-text navlinks" >Resume</li>
                 </Link>
